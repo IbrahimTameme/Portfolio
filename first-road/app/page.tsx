@@ -13,7 +13,7 @@ export default function Home() {
 
       {/* Main Content Start here */}
           <div>
-
+          Main Content 
 
           </div>
 
