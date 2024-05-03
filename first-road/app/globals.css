@@ -2,8 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    direction: rtl;
+}
+
 .bg-hero-image {
-    background: url(../public/Images/Hero-bg.png) right no-repeat;
-    background-size: cover;
-    min-height: 49.375rem;
+  background: url(../public/Images/Hero-bg.svg) bottom no-repeat;
+  background-size: cover;
+  min-height: 49.375rem;
+}
+
+/* Nav item hover animation */
+.nav-item {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.nav-item:before {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: theme("colors.secondary");
+  position: absolute;
+  top: 80%;
+  left: 0;
+  transition: all 0.7s;
+}
+
+.nav-item:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: theme("colors.body-color");
+  position: absolute;
+  top: 80%;
+  right: 0;
+  transition: all 0.7s;
+}
+
+.nav-item:hover:before {
+  width: 50%;
+  transform: translateX(100%);
+}
+
+.nav-item:hover:after {
+  width: 50%;
+  transform: translateX(-100%);
+}
+
+.glass-hover {
+	overflow: hidden;
+	position: relative;
+}
+
+.glass-hover span {
+	z-index: 20;
+}
+
+
+/* Contact Us button hover and style */
+.glass-hover:after {
+	background: theme("colors.black");
+	content: "";
+	height: 155px;
+	left: -75px;
+	opacity: 0.2;
+	position: absolute;
+	top: -50px;
+	-webkit-transform: rotate(35deg);
+	transform: rotate(35deg);
+	transition: all 750ms cubic-bezier(0.19, 1, 0.22, 1);
+	width: 50px;
+	z-index: 1;
+	transition-delay: 0.2s;
+}
+
+.glass-hover:hover:after {
+	left: 120%;
+	transition: all 750ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.box-shadow-semi-border {
+  box-shadow: 0.313rem 0.313rem 0px 0px rgba(0,0,0,1);
 }

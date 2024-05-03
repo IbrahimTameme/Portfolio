@@ -19,7 +19,7 @@ export default function Home() {
 
       </div>
       {/* Main Content Start here */}
-          <div className="bg-[#FFD338] h-[100%] w-full">
+          <div className="bg-primary h-[100%] w-full">
             <div className="h-[600px] w-full">
               <h1 className="text-3xl text-center">Main Content </h1>
             </div>
