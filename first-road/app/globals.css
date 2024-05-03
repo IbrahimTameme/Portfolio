@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-hero-image {
+    background: url(../public/Images/Hero-bg.png) right no-repeat;
+    background-size: cover;
+    min-height: 49.375rem;
+}

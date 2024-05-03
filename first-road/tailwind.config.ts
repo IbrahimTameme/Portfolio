@@ -11,9 +11,9 @@ const config: Config = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'primary':'#FFD338',
-      'secondary':'#FDE591',
-      'body-color':'#817E95',
+      'primary':'#1E0342',
+      'secondary':'#F8ECFD',
+      'body-color':'#FFFFFF',
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
