@@ -2,6 +2,9 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/nav";
 import Waves from "@/components/waves";
 import Hero from "@/components/hero";
+import SectionSeparator from "@/components/sectionSeparator";
+import WhyUs from "@/components/whyUs";
+
 export default function Home() {
   return (
     <main className="">
@@ -9,22 +12,28 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Start here */}
-      <div>
-        <Hero />
+      <div >
+        <Hero/>
+    
+        {/* <Waves/>  */}
 
-        <Waves />
       </div>
+
+              <SectionSeparator/>
+
       {/* Main Content Start here */}
-      <div className="bg-primary h-[100%] w-full">
-        <div className="h-[600px] w-full">
-          <h1 className="text-3xl text-center">Main Content </h1>
-        </div>
-      </div>
-
+          <div className="bg-body h-[100%] w-full">
+            <div className="h-[600px] w-full">
+              <h1 className="text-3xl text-center">
+          <WhyUs/>
+                Main Content
+                </h1>
+            </div>
+          </div>
       {/* Footer Content Start here */}
-      <footer>
-        <Footer />
-      </footer>
+        <footer>
+          <Footer/>
+        </footer>
     </main>
   );
 }

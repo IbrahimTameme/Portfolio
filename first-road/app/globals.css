@@ -22,7 +22,6 @@ header.sticky-header {
   background-size: cover;
   min-height: 49.375rem;
 }
-
 /* Nav item hover animation */
 .nav-item {
   text-transform: uppercase;
