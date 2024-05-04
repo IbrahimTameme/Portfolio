@@ -4,6 +4,17 @@
 
 * {
     direction: rtl;
+    line-height: 1.4;
+    transition: all 400ms ease-out;
+}
+
+header.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: theme("colors.secondary");
+    box-shadow: 0 13px 35px -12px rgba(35, 35, 35, .3);
 }
 
 .bg-hero-image {
