@@ -47,19 +47,31 @@ export default function Navbar() {
                     href="#"
                     className="px-3 py-2 me-8 nav-item"
                   >
-                    لماذا نحن
+                     الرئيسية
                   </a>
                   <a
                     href="#"
                     className="px-3 py-2 me-8 nav-item"
                   >
-                    مشاريعنا
+                    من نحن
+                  </a>
+                  <a
+                    href="#"
+                    className="px-3 py-2 me-8 nav-item"
+                  >
+                    خدماتنا
                   </a>
                   <a
                     href="#"
                     className="px-3 py-2 me-8 nav-item"
                   >
                     الفريق
+                  </a>
+                  <a
+                    href="#"
+                    className="px-3 py-2 me-8 nav-item"
+                  >
+                    مشاريعنا
                   </a>
                 </div>
               </div>

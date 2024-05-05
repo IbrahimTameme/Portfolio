@@ -19,17 +19,12 @@ export default function Home() {
 
       </div>
 
-              <SectionSeparator/>
+              <SectionSeparator
+               rotation = {180}
+                 />
 
       {/* Main Content Start here */}
-          <div className="bg-body h-[100%] w-full">
-            <div className="h-[600px] w-full">
-              <h1 className="text-3xl text-center">
-          <WhyUs/>
-                Main Content
-                </h1>
-            </div>
-          </div>
+      <WhyUs/>
       {/* Footer Content Start here */}
         <footer>
           <Footer/>
