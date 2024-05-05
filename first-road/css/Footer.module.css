@@ -1,4 +1,3 @@
-/* Footer.module.css */
 
 .footer {
     z-index: 1;
@@ -6,7 +5,8 @@
     display: grid;
     position: relative;
     grid-area: footer;
-    min-height: 12rem;
+    min-height: 30rem;
+   
 }
 
 .bubbles {
@@ -17,6 +17,7 @@
     height: 1rem;
     background: var(--footer-background);
     filter: url("#blob");
+    width: 95%;
 }
 
 .bubbles .bubble {
@@ -38,7 +39,7 @@
     background: var(--footer-background);
 }
 
-.content a,
+/* .content a,
 .content p {
     color: #f5f7fa;
     text-decoration: none;
@@ -46,9 +47,9 @@
 
 .content b {
     color: white;
-}
+} */
 
-.content p {
+/* .content p {
     margin: 0;
     font-size: 0.75rem;
 }
@@ -74,7 +75,7 @@
     margin: 0.25rem 0;
     background-size: cover;
     background-position: center;
-}
+} */
 
 @keyframes bubble-size {
     0%, 75% {

@@ -19,10 +19,11 @@ export default function Home() {
 
       </div>
 
-              <SectionSeparator/>
+              <SectionSeparator
+               rotation = {180}
+                 />
 
       {/* Main Content Start here */}
-      
       <WhyUs/>
       {/* Footer Content Start here */}
         <footer>
