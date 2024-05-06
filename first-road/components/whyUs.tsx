@@ -23,19 +23,19 @@ export default function WhyUs() {
             <div className="text-[25px]">
 
               <div className="flex justify-center items-center p-4">
-                <Image src={'/Images/icon1.svg'} alt="alt" width={100} height={100} />
+                <Image src={'/Images/Icon1.svg'} alt="alt" width={100} height={100} />
               </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptates sunt eos
 
               .</p>
               <div className="flex justify-center items-center p-4">
-                <Image src={'/Images/icon2.svg'} alt="alt" width={100} height={100} />
+                <Image src={'/Images/Icon2.svg'} alt="alt" width={100} height={100} />
               </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptates sunt eos
 
               .</p>
               <div className="flex justify-center items-center p-4">
-                <Image src={'/Images/icon3.svg'} alt="alt" width={100} height={100} />
+                <Image src={'/Images/Icon3.svg'} alt="alt" width={100} height={100} />
               </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptates sunt eos
 
