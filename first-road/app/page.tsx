@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
               <SectionSeparator
-               rotation = {180}
+               rotation = {'rotate-180'}
                  />
 
       {/* Main Content Start here */}
