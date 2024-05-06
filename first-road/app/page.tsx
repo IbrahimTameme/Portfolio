@@ -19,7 +19,9 @@ export default function Home() {
         {/* <Waves/>  */}
       </div>
 
-      <SectionSeparator />
+              <SectionSeparator
+               rotation = {180}
+                 />
 
       {/* Main Content Start here */}
       <div className="bg-body h-[100%] w-full">
