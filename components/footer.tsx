@@ -5,7 +5,7 @@ const Footer = () => (
   <>
     <div className={styles.footer}>
       <div className={styles.bubbles}>
-        {[...Array(10)].map((_, i) => (
+        {[...Array(50)].map((_, i) => (
           <div
             key={i}
             className={styles.bubble}
