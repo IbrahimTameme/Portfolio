@@ -5,6 +5,7 @@ import Hero from "@/components/hero";
 import SectionSeparator from "@/components/sectionSeparator";
 import WhyUs from "@/components/whyUs";
 import ProjectCards from "@/components/projectCards";
+import ContactUS from '@/components/contactUs';
 
 export default function Home() {
   return (
@@ -19,26 +20,35 @@ export default function Home() {
         {/* <Waves/>  */}
       </div>
 
-              <SectionSeparator
-               rotation = {'rotate-180'}
-                 />
 
       {/* Main Content Start here */}
-      <div className="bg-body h-[100%] w-full">
-        <div className="w-full">
-          <h1 className="text-3xl text-center">
+
+
+          <SectionSeparator
+            rotation = {'rotate-180'}
+          />
             <WhyUs />
-            Main Content
-          </h1>
-          
+
+          <SectionSeparator
+              rotation = {'rotate-0'}
+          />
+          <ContactUS/>
+
+          <SectionSeparator
+              rotation = {'rotate-180'}
+          />
           <ProjectCards />
 
-        </div>
-      </div>
+
+
+
+
       {/* Footer Content Start here */}
       <footer>
         <Footer />
       </footer>
+
+
     </main>
   );
 }
