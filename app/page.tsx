@@ -1,10 +1,10 @@
 import Footer from "@/components/footer";
+
 import Navbar from "@/components/nav";
-import Waves from "@/components/waves";
 import Hero from "@/components/hero";
 import SectionSeparator from "@/components/sectionSeparator";
 import WhyUs from "@/components/whyUs";
-import ProjectCards from "@/components/projectCards";
+// import ProjectCards from "@/components/projectCards";
 import ContactUS from '@/components/contactUs';
 
 export default function Home() {
@@ -37,7 +37,7 @@ export default function Home() {
           <SectionSeparator
               rotation = {'rotate-180'}
           />
-          <ProjectCards />
+          {/* <ProjectCards /> */}
 
 
 

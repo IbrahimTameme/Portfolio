@@ -1,11 +1,12 @@
 // import React from 'react';
-import styles from '@/css/Footer.module.css';
+import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import styles from "@/css/Footer.module.css";
 
 const Footer = () => (
   <>
     <div className={styles.footer}>
       <div className={styles.bubbles}>
-        {[...Array(15)].map((_, i) => (
+        {[...Array(10)].map((_, i) => (
           <div
             key={i}
             className={styles.bubble}
@@ -24,34 +25,91 @@ const Footer = () => (
 
       {/* Footer content start  */}
       <div className="bg-primary z-50 flex p-10 ">
-        <div className="w-[50%] flex flex-col p-10">
-            <div className='' >
-                   <p className='text-4xl text-secondary font-semibold mb-5'>تابعنا</p> 
-                    <div className='flex gap-10'>
-                            <a href="#">1</a>
-                            <a href="#">1</a>
-                            <a href="#">1</a>
-                            <a href="#">1</a>
-                    </div>
+        <div className="w-[50%] flex flex-col p-10 gap-7 ">
+          <div className="">
+            <p className="text-4xl text-secondary font-semibold mb-5 ">تابعنا</p>
+            <div className="flex gap-10 ">
+              <a
+                href="#"
+                className="text-primary bg-body-color size-8 hover:bg-secondary rounded-full p-1">
+                <Facebook className="" />{" "}
+              </a>
+              <a
+                href="#"
+                className="text-primary bg-body-color size-8 hover:bg-secondary rounded-full p-1">
+                <Instagram />
+              </a>
+              <a
+                href="#"
+                className="text-primary bg-body-color size-8 hover:bg-secondary rounded-full p-1">
+                <Linkedin />
+              </a>
             </div>
-            <div className='' >
-                   <p className='text-4xl text-secondary font-semibold mb-5'>تواصل معنا</p> 
-                    <div className='flex gap-10'>
-                            <a href="#">1</a>
-                            <a href="#">1</a>
-                            <a href="#">1</a>
-                            <a href="#">1</a>
-                    </div>
+          </div>
+          <div className="">
+            <p className="text-4xl text-secondary font-semibold mb-5">
+              تواصل معنا
+            </p>
+            <div className="flex gap-10">
+              <a
+                href="#"
+                className="text-primary bg-body-color size-8 hover:bg-secondary rounded-full p-1">
+                <Mail />
+              </a>
+              <a
+                href="#"
+                className="text-primary bg-body-color size-8 hover:bg-secondary rounded-full p-1">
+                <Phone />
+              </a>
             </div>
-            <div className='' >
-                   <p className='text-4xl text-secondary font-semibold mb-5'> سجل في نشرتنا الأخبارية</p> 
-                    <div className='flex  w-fit h-[40px]  border-[2px]  border-[#4C4C6D]'>
-                        <button className='bg-secondary font-bold text-xl w-[100px] hover:bg-primary hover:text-secondary hover:text-2xl ' >أرسال</button>
-                        <input type="email" name="" id=""className='w-[300px]' />
-                    </div>
+          </div>
+          <div className="">
+            <p className="text-4xl text-secondary font-semibold mb-5">
+              {" "}
+              سجل في نشرتنا الأخبارية
+            </p>
+            <div className="flex  w-fit h-[40px]  border-[2px]  border-[#4C4C6D]">
+              <button className="bg-secondary font-bold text-xl w-[100px] hover:bg-primary hover:text-secondary hover:text-2xl ">
+                أرسال
+              </button>
+              <input type="email" name="" id="" className="w-[300px]" />
             </div>
+          </div>
         </div>
-        <div className="w-[25%] flex border-x-[2px] border-body-color">أختصارات</div>
+        <div className="w-[25%] flex border-x-[2px] border-body-color  flex-col p-10 gap-4 " >
+          <p className="text-4xl text-secondary font-semibold mb-5">أختصارات</p>
+
+          <a
+            href=""
+            className="text-2xl font-bold text-body-color hover:text-secondary">
+            {" "}
+            الرئيسية
+          </a>
+          <a
+            href=""
+            className="text-2xl font-bold text-body-color hover:text-secondary">
+            {" "}
+            من نحن
+          </a>
+          <a
+            href=""
+            className="text-2xl font-bold text-body-color hover:text-secondary">
+            {" "}
+            خدماتنا
+          </a>
+          <a
+            href=""
+            className="text-2xl font-bold text-body-color hover:text-secondary">
+            {" "}
+            الفريق
+          </a>
+          <a
+            href=""
+            className="text-2xl font-bold text-body-color hover:text-secondary">
+            {" "}
+            مشاريعنا
+          </a>
+        </div>
         <div className="w-[50%] content-center text-center p-10 ">
           <div className="text-8xl h-[50%] font-bold ">
             <a href="#">

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,8 +7,8 @@
     direction: rtl;
     line-height: 1.4;
     transition: all 400ms ease-out;
-}
-
+    
+  }
 header.sticky-header {
     position: fixed;
     top: 0;
@@ -18,7 +19,7 @@ header.sticky-header {
 }
 
 .bg-hero-image {
-  background: url(../public/Images/Hero-bg.svg) bottom no-repeat;
+  background: url(/Images/Hero-bg.svg) bottom no-repeat;
   background-size: cover;
   min-height: 49.375rem;
 }
